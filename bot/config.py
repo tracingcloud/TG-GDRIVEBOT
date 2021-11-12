@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    BOT_TOKEN = "2127613647:AAHiIxS7Q54U6EQF2ghelxmYXgc2UW13ukw"
+    APP_ID = "10512962"
+    API_HASH = "480b80fff17b9ac6ec7b0abb22492ced"
+    DATABASE_URL = "postgres://usuioxsf:hClmU6z5fot3CLF68AmBoyOBj00_mrBx@kashin.db.elephantsql.com/usuioxsf"
+    SUDO_USERS = "1380112160 1915812044 -788841417" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-    SUPPORT_CHAT_LINK = ""
+    G_DRIVE_CLIENT_ID = "771392098427-n7lebvl3anfh3keq2nm6ak894gcj4dpi.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
+    SUPPORT_CHAT_LINK = "https://telegram.dog/joinchat/eSWrcf8KZtE0YzA1"
 
 
 class BotCommands:
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files. I was made by @thesilentninja.__\n__If you want to learn more send a  /help.__"
+    START_MSG = "**Hi. {}.**\n__I'm GDC X1 Leech Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files. I was made by Green Data Center & Owned by Helix Authority. Contact Admin: @agentzagreus.__\n__If you want to learn more send a  /help.__"
 
     HELP_MSG = [
         ".",
