@@ -38,8 +38,6 @@ class Messages:
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
         # Dont remove this ↓ if you respect developer.
-         
-        "**CONTACT CREATOR FOR SUPPORT @thesilentninja**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
@@ -48,13 +46,13 @@ class Messages:
     
     INVALID_GDRIVE_URL = "❗ **Invalid Google Drive URL**\nMake sure the Google Drive URL is in valid format."
     
-    COPIED_SUCCESSFULLY = "✅ **Copied successfully. Bot by @thesilentninja**\n[{}]({}) __({})__"
+    COPIED_SUCCESSFULLY = "✅ **Copied successfully.**\n[{}]({}) __({})__"
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
     DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}```"
     
-    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully. Bot by @thesilentninja**\n[{}]({}) __({})__"
+    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully.**\n[{}]({}) __({})__"
     
     DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
     
@@ -72,7 +70,7 @@ class Messages:
     
     DOWNLOAD_TG_FILE = "📥 **Downloading File...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
-    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully. Bot by @thesilentninja**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
+    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
     
     PARENT_CLEAR_SUCCESS = f'🆔🚮 **Custom Folder ID Cleared Successfuly.**\n__Use__ ```/{BotCommands.SetFolder[0]} (Folder Link)``` __to set it back__.'
     
@@ -88,7 +86,7 @@ class Messages:
     
     INSUFFICIENT_PERMISSONS = "❗ **You have insufficient permissions for this file.**\n__File id - {}__"
     
-    DELETED_SUCCESSFULLY = "🗑️✅ **File Deleted Successfully. Bot by @thesilentninja**\n__File deleted permanently !\nFile id - {}__"
+    DELETED_SUCCESSFULLY = "🗑️✅ **File Deleted Successfully.**\n__File deleted permanently !\nFile id - {}__"
     
     WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG**\n__Please try again later or contact @thesilentninja.__"
     
